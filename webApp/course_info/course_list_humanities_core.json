@@ -1,0 +1,164 @@
+{
+    "ARAB1000": {
+        "course_name": "Introduction to Cultures of the Arabic-Speaking World",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "Introduces students to the Arabic-speaking cultures of North Africa, some Asian countries, and the Gulf States, with a focus on politics, culture, economics, literature, and the arts. Taught in English."
+    },
+
+    "CHIN1000": {
+        "course_name": "China and the Chinese",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "A multidisciplinary introduction to Chinese society both past and present. Prehistory, birth of imperial China, literature, philosophy, religion, nationalism, revolution, modernization, contemporary life, social structure, gender, food, family life, population policy, ethnicity, popular culture, economics, and politics. Note: This course is taught in English."
+    },
+
+    "ENGL1601": {
+        "course_name": "Storytelling: Literature, Film, and Television",
+        "credits": 3,
+        "prereqs": ["ENGL1020"],
+        "course_description": "Asks students to explore how stories determine who we are. Everything people do fits into a narrative pattern, evident everywhere from TV news to memory to daily schedules. We tell ourselves stories about ourselves and others--how do these stories shape who we are as cultural beings? Note: this course assumes that students have completed or are currently taking ENGL 1020. Term offered: fall, spring."
+    },
+
+    "ENGL2600": {
+        "course_name": "Greatest Hits",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "Offers a cultural history of the best-seller over several hundred years, ranging from blockbuster films to popular novels, viral videos, and musical 'hits.' We will explore popular works in a range of different media, asking how they achieved the status of a best-seller in different cultural settings."
+    },
+
+    "ETST2155": {
+        "course_name": "African American History",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "Surveys the history of African Americans. Study interpretations, and analysis of major problems, issues, and trends affecting the African American population from pre-slavery to the present. Term offered: fall, spring. Max hours: 3 Credits."
+    },
+
+    "ETST2357": {
+        "course_name": "Asian American & Pacific Islander Cultures",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "This is an introductory course that will examine how Asian Americans and Pacific Islanders have been represented in American popular culture and how Asian Americans and Pacific Islanders have sought to challenge and complicate those dominant cultural images to define themselves and their diverse experiences."
+    },
+
+    "FINE2600": {
+        "course_name": "Art History Survey I",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "A lecture course studying Western and non-Western art from prehistory to medieval times, including major artists and periods. Through visual analysis, vocabulary acquisition, exams, and writing assignments, students demonstrate knowledge of historical developments and an ability to analyze the arts."
+    },
+
+    "FINE2610": {
+        "course_name": "Art History Survey II",
+        "credits": 3,
+        "prereqs": ["FINE 2600"],
+        "course_description": "A lecture course studying Western and non-Western art from the Renaissance to today, including major artists and periods. Through visual analysis, vocabulary acquisition, exams, and writing assignments, students demonstrate knowledge of historical developments and an ability to analyze the arts. Prerequisite applicable only for FINE-BA majors: FINE 2600. No prerequisite for all others."
+    },
+
+    "FREN1000": {
+        "course_name": "Introduction to Cultures of the French-Speaking World",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "Introduces students to the many cultures of the French-speaking world. Taught in English for accessibility to students from different colleges at the University. The countries studied are: France, its overseas departments (Guadeloupe and Martinique) and territories (Tahiti); Quebec; Senegal; and other African countries. Term offered: fall, spring."
+    },
+
+    "HIST1361": {
+        "course_name": "U.S. History to 1876",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "Provides an introduction to the major forces, events and individuals that shaped the historical development of American society, beginning with the European settlement of America and concluding with the Civil War, reconstruction and the early growth of an industrial order. Term offered: fall, spring."
+    },
+
+    "HIST1362": {
+        "course_name": "U.S. History Since 1876",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "Provides an introduction to the major forces, events, and individuals that shaped the historical development of American society from the Civil War to the present. Term offered: fall, spring, summer."
+    },
+
+    "HIST1381": {
+        "course_name": "The History of Now",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "Examines several topics of profound interest to historians world wide: nature and technology, secular and religious faiths, and concepts of political union. The experience of the U.S. as it relates to the experiences of other periods and cultures. Term offered: fall, spring."
+    },
+    
+    "HIST1400": {
+        "course_name": "Controversies in History",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "Examines a variety of cases where historians have significant disagreement or diverse interpretations regarding 'what happened' and 'why,' to come to an understanding of what historians do and how they do it. Term offered: fall, spring, summer."
+    },
+
+    "LCRT2000": {
+        "course_name": "Rebels, Villains, & Superheroes: How Children's Literature Shapes Our Identities",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "This course explores both classic and contemporary children’s and adolescent literature and media in traditional and digital texts, specifically focusing on developing literary understandings, exploring perspectives and personal responses to literature, and inquiring into trends and issues."
+    },
+
+    "PHIL1012": {
+        "course_name": "Truth, Reality, and the Good Life: Introduction to Philosophy",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "We’re commonly told to “do the right thing,” and everybody seems to agree that we should. But what is right? What is wrong? How can we see and know the difference? This course helps students examine and analyze the ethical concepts, situations, and problems raised by these fundamental questions. Specific problems will vary with contemporary concerns, e.g., poverty, war, injustice, famine, abortion, punishment, and environmental sustainability. The course goal is to help students sharpen their ethical reasoning skills so they can better navigate and contribute to the ethical, social, and political arenas in which they will live their lives."
+    },
+
+    "PHIL1020": {
+        "course_name": "Right, Wrong, and Seeing the Difference: Introduction to Ethics",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "We’re commonly told to “do the right thing,” and everybody seems to agree that we should. But what is right? What is wrong? How can we see and know the difference? This course helps students examine and analyze the ethical concepts, situations, and problems raised by these fundamental questions. Specific problems will vary with contemporary concerns, e.g., poverty, war, injustice, famine, abortion, punishment, and environmental sustainability. The course goal is to help students sharpen their ethical reasoning skills so they can better navigate and contribute to the ethical, social, and political arenas in which they will live their lives."
+    },
+
+    "PHIL2441": {
+        "course_name": "Logic, Language and Scientific Reasoning",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "Intro course in argumentation, critical thinking and scientific reasoning. Covers rules of logical inference, informal fallacies, problem solving, and probabilistic reasoning. Enhances analytical and critical thinking skills tested on LSAT and MCAT, central to advancement in sciences, and broadly desired by employers."
+    },
+
+    "RLST1610": {
+        "course_name": "Introduction to Religious Studies",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "Religion is a complex phenomenon which involves social norms, beliefs and fears, and overarching world view. Religious experiences are among the most profound an individual can have. The course examines religious phenomena from various perspectives, including philosophical, historical, psychological, anthropological, political, sociological, the symbolic and ritual."
+    },
+
+    "RLST2660": {
+        "course_name": "World Religions",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "Provides an introduction to the basic beliefs and concepts of the world's great religious traditions. Covers the history, development, belief patterns, and institutional forms of the world's religions, including Judaism, Zoroastrianism, Christianity, Islam, Hinduism, Buddhism, Confucianism, Taoism and Shintoism."
+    },
+
+    "SPAN1000": {
+        "course_name": "Introduction to Cultures of the Spanish Speaking World",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "Introduces students to the Spanish-speaking cultures of Spain, Latin America, and the United States through a historical overview and a focus on contemporary politics and culture. Taught in English."
+    }
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+
+    
+      
+      
+      
+      
+      
+
+}
