@@ -1,0 +1,113 @@
+{
+    "CRJU1000": {
+        "course_name": "Criminology and Criminal Justice: An Overview",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "This course is designed to provide an overview of the criminal justice process and the criminal justice system in general. Concepts of crime, deviance and justice are discussed and general theories of crime causality are examined. Special emphasis is placed on the components of the criminal justice system: the police, the prosecutorial and defense functions, the judiciary and the field of corrections."
+    },
+
+    "ECON2012": {
+        "course_name": "Principles of Economics: Macroeconomics",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "Covers topics of inflation, unemployment, national income, growth and problems of the national economy, stabilization policy, plus others at the discretion of the instructor. Purpose is to teach fundamental principles, to open the field of economics in the way most helpful to further a more detailed study of special problems, and to give those not intending to specialize in the subject an outline of the general principles of economics."
+    },
+
+    "ECON2022": {
+        "course_name": "Principles of Economics: Microeconomics",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "Topics include price determination in a market system composed of households and firms: resource allocation and efficiency of various market structures, plus others at the discretion of the instructor. Note: Complementary to and normally taken following ECON 2012."
+    },
+
+    "EDFN1000": {
+        "course_name": "Equality, Rights & Education",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "Examines the history of U.S. public schooling through landmark court cases. Investigates/analyzes how apartheid came to be institutionalized, how forces of desegregation achieved a series of momentous victories, and how those victories have been undermined through the resegregation of schools."
+    },
+
+    "ENVS1342": {
+        "course_name": "Environment, Society and Sustainability",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "Overview of perspectives on environmental issues within the context of sustainable development and taking a systems approach. The focus is on social science approaches to explore the human footprint on the earth, environmentalism, scientific uncertainty, policy creation and social change."
+    },
+
+    "ETST2000": {
+        "course_name": "Introduction to Ethnic Studies",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "Multi-disciplinary survey of contemporary and historical research analyses of the diverse social, economic, political, and cultural facets of African American, American Indian, Asian American, and Latino communities and cultures."
+    },
+
+    "ETST2108": {
+        "course_name": "Introduction to Chicanx and Latinx Studies",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "This course introduces students to the broad range of the interdisciplinary fields of Chicanx and Latinx Studies by examining the Chicanx and Latinx experience including history, identity, politics, immigration, labor, literature, and popular culture."
+    },
+
+    "GEOG1102": {
+        "course_name": "World Regions Global Context",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "Analyzes world regions and their global interconnectedness, including the dynamic and complex relationships between people and the world they inhabit. Demographic and cultural (political, economic, and historic) issues are examined as well as interactions between human societies and natural environments."
+    },
+
+    "GEOG1302": {
+        "course_name": "Introduction to Human Geography",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "Systematic introduction to basic concepts and approaches in human geographic analysis."
+    },
+
+    "GEOG1602": {
+        "course_name": "Urban Studies and Planning",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "Surveys the process of urbanization, emphasizing the development of American cities, using Denver as an example. Topics covered include: evolution of metropolitan form/land use patterns, cultural landscape formation, city planning and architectural design, and urban social and policy issues."
+    },
+
+    "HDFR1080": {
+        "course_name": "Lifespan Issues in Family Violence",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "This course examines family violence over the lifespan from family system and ecological perspectives. The course explores development, definitions, theory, correlates, and the occurrence of family violence over the lifespan; including practice, interventions, and policy within school and community contexts."
+    },
+
+    "HDFR2200": {
+        "course_name": "Love, Family and Human Development",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "This course provides an introduction to understanding love, intimate relationships, and family relations through an ecological systems perspective. The course provides an exploration of contemporary diverse family systems and their relationships across the life span."
+    },
+
+    {
+        "course_name": "Learning: Digital Spaces and Far Out Places",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "Digital media have transformed where, how, and why people learn. In this course we examine contemporary developments in digital media and learning and explore topics such as social networking and media, virtual and augmented reality, civic media, gamified learning, and mobile learning. This is a hands-on and minds-on course where we immerse ourselves in digital spaces to build projects that support our civic, communication and collaboration, and creative interests. Come and learn to use digital media to enhance your life, community, and beyond!"
+    },
+
+    {
+        "course_name": "Race, Gender, Class, & Health",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "Course focuses on the principles, tools, and population approach of social epidemiology as it relates health to race, gender, and class. Contemporary topics in public health will be used as case studies to illuminate principles and tools both in lecture and in recitation sections."
+    }
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+}
