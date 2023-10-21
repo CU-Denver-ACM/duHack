@@ -1,0 +1,15 @@
+{
+    "ENGL1020": {
+        "course_name": "Core Composition I",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "Provides opportunities to write for different purposes and audiences, with an emphasis on learning how to respond to various rhetorical situations; improving critical thinking, reading, and writing abilities; understanding various writing processes; and gaining a deeper knowledge of language conventions."
+    },
+
+    "ENGL2030": {
+        "course_name": "Core Composition II",
+        "credits": 3,
+        "prereqs": ["ENGL1020"],
+        "course_description": "Focuses on academic and other types of research-based writing and builds on the work completed in ENGL 1020. Focuses on critical thinking, reading and writing as well as working with primary and secondary source material to produce a variety of research-based essays. Emphasis on using both print-based and electronic-based information."
+    }    
+}
