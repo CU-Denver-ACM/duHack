@@ -3,6 +3,7 @@
         "course_name": "College Algebra",
         "credits": 4,
         "prereqs": [],
+        "offered": ["Fall", "Spring"],
         "course_description": "Topics in algebra designed for students who intend to take the calculus sequence. Functions, domains, ranges, graphs, data scatter plots and curve fitting, solving equations and systems of equations, polynomial, rational, exponential and logarithmic functions and other topics. Applications are emphasized. Note: Students may not receive credit for this course if they have already received credit for MATH 1070 or MATH 1130. Course is approved by the Colorado Dept of Higher Education for statewide guaranteed transfer, GT-MA1."
     },
 
@@ -10,6 +11,7 @@
         "course_name": "College Trigonometry",
         "credits": 3,
         "prereqs": [],
+        "offered": ["Fall", "Spring"],
         "course_description": "Topics in trigonometry, analytic geometry, and elementary functions designed for students who intend to take the calculus sequence. Angles and trigonometry functions of acute angles, analytic trigonometry, fundamental trigonometric functions and identities including hyperbolic trigonometry, parametric equations, and polar coordinate system. Graphic calculators and/or computer algebra systems are used extensively. Applications are emphasized. Students with a grade of B- or better in MATH 1110 or MATH 1070 pass the course at a much higher rate. No co-credit with MATH 1130. Course is approved by the Colorado Dept of Higher Education for statewide guaranteed transfer, GT-MA1."
     },
 
@@ -17,6 +19,7 @@
         "course_name": "Calculus I",
         "credits": 4,
         "prereqs": ["MATH1110, MATH1120"],
+        "offered": ["Fall", "Spring"],
         "course_description": "First course of a three-semester sequence (MATH 1401, 2411, 2421) in calculus. Topics covered include limits, derivatives, applications of derivatives, and the definite integral. No co-credit with MATH 1080. If you have any questions or concerns about this requisite, please notify MATH.Placement@ucdenver.edu."
     },
 
@@ -24,6 +27,7 @@
         "course_name": "Calculus II",
         "credits": 4,
         "prereqs": ["MATH1401"],
+        "offered": ["Fall", "Spring"],
         "course_description": "The second of a three-semester sequence (MATH 1401, 2411, 2421) in calculus. Topics covered include exponential, logarithmic, and trigonometric functions, techniques of integration, indeterminate forms, improper integrals and infinite series. Students with a grade of B- or better in MATH 1401 pass this course at a much higher rate. Term offered: fall, spring, summer."
     },
 
@@ -31,6 +35,7 @@
         "course_name": "Calculus III",
         "credits": 4,
         "prereqs": ["MATH2411"],
+        "offered": ["Fall", "Spring"],
         "course_description": "The third of a three-semester sequence in Calculus (MATH 1401, 2411 and 2421). Topics include vectors, vector-valued functions, partial differentiation, differentiation, multiple integration, and vector calculus. Students with a grade of B- or better in MATH 2411 pass this course at a much higher rate. Term offered: fall, spring, summer."
     },
 
@@ -38,6 +43,7 @@
         "course_name": "Introductory Statistics",
         "credits": 3,
         "prereqs": [],
+        "offered": ["Fall", "Spring"],
         "course_description": "Basic statistical concepts, summarizing data, probability concepts, distributions, confidence intervals, hypothesis testing. This course assumes that students have knowledge equivalent to three years of high school mathematics (two years of algebra), intermediate algebra, or Algebraic Literacy at a Colorado Community College at the start of class. Students who have a grade of B- or better in one of these courses pass at a much higher rate. Term offered: fall, spring, summer. Requisite: Students may be required to enroll in the one credit hour co-requisite workshop MATH 2831."
     },
 
@@ -45,6 +51,7 @@
         "course_name": "Applied Linear Algebra",
         "credits": 3,
         "prereqs": ["MATH1401"],
+        "offered": ["Fall", "Spring"],
         "course_description": "Linear algebra is the mathematics of vectors and matrices and is fundamental for the representation and manipulation of data. List of topics covered: Definition and use of vectors and matrices, Matrix algebra, Systems of linear equations, Reduced Row Echelon Form, Trace and determinant, Linear independence and span, Basis and dimension, Null space and range, Rank theorem, Vector spaces and linear transformations, Eigenvalues and Eigenvectors, Diagonalization, Inner products, Orthogonal projections, Gram-Schmidt algorithm, Diagonalization of symmetric matrices, Singular value decomposition. Applications such as computer graphics, machine learning, Markov chains, and data reduction are considered."
     },
 
@@ -52,6 +59,7 @@
         "course_name": "Linear Algebra and Differential Equations",
         "credits": 4,
         "prereqs": ["MATH2411"],
+        "offered": ["Fall", "Spring"],
         "course_description": "Presents the essential ideas and methods of linear algebra and differential equations, emphasizing the connections between and the applications of both subjects. The course is designed for students in the sciences and engineering. This course will not satisfy the requirements for a major in Mathematics."
     },
 
@@ -60,6 +68,7 @@
         "credits": 3,
         "prereqs": ["MATH2411"],
         "coreqs": ["MATH3191"],
+        "offered": ["Fall", "Spring"],
         "course_description": "First and second order differential equations, Laplace transforms, systems of equations, with an emphasis on modeling and applications. Note: No co-credit with MATH 3195."
     },
 
@@ -67,6 +76,7 @@
         "course_name": "Statistical Theory",
         "credits": 3,
         "prereqs": ["MATH2421"],
+        "offered": ["Fall", "Spring"],
         "course_description": "Probability, random variables, properties of distributions, bootstrap methods, maximum likelihood and method of moments estimation, properties of estimators, classical methods for confidence intervals and hypothesis testing."
     },
 
@@ -74,6 +84,7 @@
         "course_name": "Probability and Statistics for Engineers",
         "credits": 3,
         "prereqs": ["MATH2411", "MATH2421"],
+        "offered": ["Fall", "Spring"],
         "course_description": "Basic probability theory, discrete and continuous random variables, point and interval estimation, test of hypotheses, and simple linear regression."
     },
 
@@ -81,6 +92,7 @@
         "course_name": "Introduction to Probability",
         "credits": 3,
         "prereqs": ["MATH2421"],
+        "offered": ["Fall", "Spring"],
         "course_description": "Fundamentals of probability theory with connection to practical application through simulation. Topics include: Axioms of probability, conditional probability, independence, law of total probability, Bayes theorem, random variables, probability distributions, expected value and variance."
     }
 

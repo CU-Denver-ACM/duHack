@@ -83,31 +83,18 @@
         "course_description": "This course provides an introduction to understanding love, intimate relationships, and family relations through an ecological systems perspective. The course provides an exploration of contemporary diverse family systems and their relationships across the life span."
     },
 
-    {
+    "INTE2500":{
         "course_name": "Learning: Digital Spaces and Far Out Places",
         "credits": 3,
         "prereqs": [],
         "course_description": "Digital media have transformed where, how, and why people learn. In this course we examine contemporary developments in digital media and learning and explore topics such as social networking and media, virtual and augmented reality, civic media, gamified learning, and mobile learning. This is a hands-on and minds-on course where we immerse ourselves in digital spaces to build projects that support our civic, communication and collaboration, and creative interests. Come and learn to use digital media to enhance your life, community, and beyond!"
     },
 
-    {
+    "PBHL1001":{
         "course_name": "Race, Gender, Class, & Health",
         "credits": 3,
         "prereqs": [],
         "course_description": "Course focuses on the principles, tools, and population approach of social epidemiology as it relates health to race, gender, and class. Contemporary topics in public health will be used as case studies to illuminate principles and tools both in lecture and in recitation sections."
     }
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+         
 }

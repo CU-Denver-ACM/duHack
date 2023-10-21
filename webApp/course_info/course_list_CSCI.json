@@ -4,6 +4,7 @@
         "course_name": "Fundamentals of Engineering Design Innovation",
         "credits": 3,
         "prereqs": [],
+        "offered": ["Fall", "Spring"],
         "course_description": "This course introduces concepts of engineering design innovation at a variety of scales and disciplines. Participants will experience and explore core technology and design themes including design principles, processes, methods, modes of thinking, and social and cultural aspects or design. Cross-listed with CVEN 1200, ENGR 1200, MECH 1200, ELEC 1201 and IWKS 2100."
     },
 
@@ -11,6 +12,7 @@
         "course_name": "Introduction to Computing in Society",
         "credits": 3,
         "prereqs": [],
+        "offered": ["Fall", "Spring"],
         "course_description": "This is an introductory course for individuals who would like to learn about the field of computer science, how modern computing is affecting society, and the basics of computer programming. We will explore how computing has changed society, how intertwined in our daily lives computer programs have become, and how these programs are created. We will explore these topics while learning the basics of computer programming with a modern programming language."
     },
 
@@ -19,6 +21,7 @@
         "credits": 3,
         "prereqs": [],
         "coreqs": ["CSCI1411"],
+        "offered": ["Fall", "Spring", "Summer"],
         "course_description": "First course in computing for those who will take additional computer science courses. Covers the capabilities of a computer, the elements of a modern programming language, and basic techniques for solving problems using a computer."
     },
 
@@ -27,6 +30,7 @@
         "credits": 1,
         "prereqs": [],
         "coreqs": ["CSCI1410"],
+        "offered": ["Fall", "Spring", "Summer"],
         "course_description": "This laboratory is taken with CSCI 1410 and will provide students with additional help with problem-solving and computer exercises to complement the course material covered in CSCI 1410."
     },
 
@@ -34,6 +38,7 @@
         "course_name": "Logic Design",
         "credits": 3,
         "prereqs": ["Calculus I"],
+        "offered": ["Spring"],
         "course_description": "The design and analysis of combinational and sequential logic circuits. Topics include binary and hexadecimal number systems, Boolean algebra and Boolean function minimization, and algorithmic state machines. Lecture/lab includes experiments with computer-aided design tools."
     },
 
@@ -41,6 +46,7 @@
         "course_name": "Computer Forensics II",
         "credits": 3,
         "prereqs": ["CSCI1001"],
+        "offered": ["Fall", "Spring"],
         "course_description": "This is a continuation of CSCI 1001. This course will cover computer forensics for advanced operating systems (Mac, Linux, and Unix) and mobile device forensics. This course will incorporate hands-on learning by utilizing a computer forensics software package. (Non-CS majors)"
     },
 
@@ -48,6 +54,7 @@
         "course_name": "Object Oriented Programming",
         "credits": 3,
         "prereqs": ["CSCI1410", "CSCI1411"],
+        "offered": ["Fall", "Spring"],
         "course_description": "Programming topics in a modern programming language. The emphasis is on problem-solving using object-oriented and Generic Programming. Topics include advanced I/O, classes, inheritance, polymorphism and virtual functions, abstract base classes, exception handling, templates, and the Standard Template Library."
     },
 
@@ -55,6 +62,7 @@
         "course_name": "Data Structures and Program Design",
         "credits": 3,
         "prereqs": ["CSCI2312"],
+        "offered": ["Fall", "Spring", "Summer"],
         "course_description": "Topics include a first look at an algorithm, data structures, abstract data types, and basic techniques such as sorting, searching, and recursion. Programming exercises are assigned through the semester."
     },
 
@@ -62,6 +70,7 @@
         "course_name": "Discrete Structures",
         "credits": 3,
         "prereqs": ["MATH1401"],
+        "offered": ["Fall", "Spring"],
         "course_description": "Covers the fundamentals of discrete mathematics, including logic, sets, functions, asymptotics, mathematical reasoning, induction, combinatorics, discrete probability, relations, and graphs. Emphasis on how discrete mathematics applies to computer science in general and algorithm analysis in particular."
     },
 
@@ -69,6 +78,7 @@
         "course_name": "Assembly Language and Computer Organization",
         "credits": 3,
         "prereqs": ["CSCI1410", "CSCI1411", "CSCI1510"],
+        "offered": ["Fall", "Spring"],
         "course_description": "Topics include computer architecture, program execution at the hardware level, programming in assembly language, the assembly process, hardware support of some high-level language features, and a program's interface to the operating system. Programming exercises are assigned in this course. These exercises involve the use of specific hardware in designated laboratories."
     },
 
@@ -76,6 +86,7 @@
         "course_name": "Fundamentals of UNIX",
         "credits": 3,
         "prereqs": [],
+        "offered": ["Fall", "Spring"],
         "course_description": "Introduces the UNIX operating system and its family of related utility programs. History and overview, versions, and common features. File operations, utilities, shells, editors, filters, and data manipulation. Shell programming communications and networking, windowing environments, mail and Internet. Programming tools. Simple system administration. Credit will not count toward BSCSE degree."
     },
 
@@ -83,6 +94,7 @@
         "course_name": "NAND to Tetris: Foundations of Computer Systems",
         "credits": 3,
         "prereqs": ["CSCI1410", "CSCI1411"],
+        "offered": ["Fall", "Spring"],
         "course_description": "Introduces the principles of computer systems that underlie the global information age. Starting from first principles, students gradually construct a simple hardware platform and a modern software hierarchy, yielding a working basic yet powerful computer system. Only introductory programming experience is required. Cross-listed with IWKS 3300."
     },
 
@@ -90,6 +102,7 @@
         "course_name": "Game Design and Development I",
         "credits": 3,
         "prereqs": ["CSCI1410", "CSCI1411"],
+        "offered": ["Fall", "Spring"],
         "course_description": "Introduces principles of computer game development, building on the rich interplay of computer science, graphics design, physics, music, and narrative. Students develop interactive 2D and 3D games and a final project. Substantial software development involved, but requires only introductory programming experience. Cross-listed with IWKS 3400."
     },
 
@@ -97,6 +110,7 @@
         "course_name": "IoT: The Internet of Things",
         "credits": 3,
         "prereqs": ["CSCI1410", "CSCI1411"],
+        "offered": ["Fall", "Spring"],
         "course_description": "In a world where everything is connected to everything else, how does that work? This course introduces techniques for (1) designing systems that can sense the environment and respond to humans in meaningful ways and (2) creating networks of physical objects that collect and exchange data. Such systems might include wearable sensors, interactive art, and Internet-connected home devices. Working individually and in teams, students will develop projects using Inworks’ materials, devices, and fabrication tools. The course involves considerable prototyping and software development but requires only introductory programming and prototyping experience. Cross-listed with IWKS 4120."
     },
 
@@ -104,6 +118,7 @@
         "course_name": "Database System Concepts",
         "credits": 3,
         "prereqs": ["ENGL1020", "CSCI2421"],
+        "offered": ["Fall", "Spring"],
         "course_description": "Introduces database design, database management systems, and the SQL standard database language. Includes data modeling techniques, conceptual database design, theory of object-relational and relational databases, relational algebra, relational calculus, normalization, and database integrity. Restriction: Restricted to Computer Science Majors and Minors and Cybersecurity Majors."
     },
 
@@ -111,6 +126,7 @@
         "course_name": "Advanced Programming",
         "credits": 3,
         "prereqs": ["CSCI2421"],
+        "offered": ["Fall", "Spring"],
         "course_description": "The course will cover a wide range of advanced programming topics via focusing on the development of cross-platform applications. The focus will be on problem-solving and developing applications with modern languages (such as C++, Java, Objective-C) & frameworks, including Xcode, Angularjs (with JavaScript, HTML5, CSS), Phonegap, & Webstorm."
     },
 
@@ -118,6 +134,7 @@
         "course_name": "Algorithms",
         "credits": 3,
         "prereqs": ["CSCI2421", "CSCI2511"],
+        "offered": ["Fall", "Spring"],
         "course_description": "Design and analysis of algorithms. Asymptotic analysis as a means of evaluating algorithm efficiency. The application of induction and other mathematical techniques for proving the correctness of an algorithm. Data structures for simplifying algorithm design, such as hash tables, heaps, and search trees. Elementary graph algorithms. Assignments include written work and programming projects. Restriction: Restricted to Computer Science Majors and Minors and Cybersecurity Majors."
     },
 
@@ -125,6 +142,7 @@
         "course_name": "Principles of Programming Languages",
         "credits": 3,
         "prereqs": ["CSCI2421", "CSCI2525"],
+        "offered": ["Fall"],
         "course_description": "Introduces programming language design concepts and implementation issues. Includes language concepts such as control structures and data types, formal language specification techniques, and syntactic and semantic implementation issues. Restriction: Restricted to Computer Science Majors and Minors and Cybersecurity Majors."
     },
 
@@ -132,6 +150,7 @@
         "course_name": "Operating System Concepts",
         "credits": 3,
         "prereqs": ["CSCI3412", "CSCI2525"],
+        "offered": ["Fall"],
         "course_description": "Covers the principles of computer operating systems and the essential components of an operating system. Topics include: I/O devices, file systems, CPU scheduling, and memory management. Restricted to Computer Science Majors, Minors, Cybersecurity Majors, and CSSC Certificate."
     },
 
@@ -139,6 +158,7 @@
         "course_name": "Introduction to Software Engineering",
         "credits": 3,
         "prereqs": ["CSCI3412"],
+        "offered": ["Spring"],
         "course_description": "Introduces principles and practices of software engineering: software life-cycle models, requirements engineering, analysis and design tools, human factors risk management, program certification, project management, and intellectual property rights. Restriction: Restricted to Computer Science Majors and Minors."
     },
 
@@ -146,6 +166,7 @@
         "course_name": "Hardware-Software Interface",
         "credits": 3,
         "prereqs": ["CSCI2525"],
+        "offered": ["Fall"],
         "course_description": "Hardware and software techniques needed to control and program device interfaces. Input and output devices, computer peripherals, device drivers, and interfaces are introduced. Specific programmable devices are used in class projects. Restriction: Restricted to Computer Science Majors and Minors."
     },
 
@@ -153,6 +174,7 @@
         "course_name": "Internet of Things: Sensing, Communication & Control",
         "credits": 3,
         "prereqs": ["CSCI2421"],
+        "offered": ["Fall", "Spring"],
         "course_description": "The Internet of Things (IoT) is transforming our physical world into a complex and dynamic system of connected devices on an unprecedented scale. This course covers the basic components of IoT systems: sensing, communication, control, and power supply, as well as case studies on the design of real-world IoT applications, including voice authentication, activity monitoring, and battery management. This course integrates both the theories/science of IoTs and their hands-on implementation, as well as the basic practice of data collection, processing, analysis, and visualization. Restriction: Restricted to Computer Science majors and minors (CSCI-BS, CSCS-BA, and CSCI-MIN)."
     },
 
@@ -160,6 +182,7 @@
         "course_name": "Probability and Computing",
         "credits": 3,
         "prereqs": ["CSCI2511", "MATH2411"],
+        "offered": ["Fall", "Spring"],
         "course_description": "Events and probability. Discrete random variables. Moments of random variables. Conditional probability and expectation. The probabilistic method. Markov chains and random walks. Continuous distributions and the Poisson process. Entropy, randomness, and information. Randomized algorithms. Restriction: Restricted to Computer Science Majors and Minors."
     },
 
@@ -167,6 +190,7 @@
         "course_name": "Computer Security",
         "credits": 3,
         "prereqs": ["CSCI2421"],
+        "offered": ["Fall", "Spring"],
         "course_description": "Introduces basic knowledge from the computer security area. Topics covered in this course include: Cybersecurity Ethics, Penetration Testing, Secure Programming Practices, and Life-Cycle Security. Students will gain an understanding of ethics in cybersecurity with the tools for ethical decision making, learn methods of exploiting vulnerabilities and perform penetration testing on a simple network, understand the characteristics of secure programming with the ability to implement programs that are free from vulnerabilities, and understand security-related concerns in a system Life-Cycle and how security principles can be applied to improve security throughout a system. Restriction: Restricted to Computer Science Majors and Minors."
     },
 
@@ -174,6 +198,7 @@
         "course_name": "Fundamentals of UNIX",
         "credits": 3,
         "prereqs": ["CSCI2421"],
+        "offered": ["Fall"],
         "course_description": "Introduces the UNIX/Linux operating system and its family of related utility programs. History and overview, versions, and common features. Common basic commands, file and process operations, utilities, shells, intro the vi editor, filters, and data manipulation. Shell programming communications and networking, windowing environments (X window). Programming tools (gdb). Simple system administration. Restriction: Restricted to Computer Science Majors, Minors, and CSSC Certificate."
     },
 
@@ -181,6 +206,7 @@
         "course_name": "Introduction to Computer Networks",
         "credits": 3,
         "prereqs": ["CSCI2421"],
+        "offered": ["Spring"],
         "course_description": "Introduction and overview of computer networks. Topics include Internet protocols, network devices, network security, and performance issues. Restriction: Restricted to Computer Science Majors, Minors, Cybersecurity Majors, and CSSC Certificate."
     },
 
@@ -188,6 +214,7 @@
         "course_name": "Network Programming",
         "credits": 3,
         "prereqs": ["CSCI3761"],
+        "offered": ["Spring"],
         "course_description": "Network Programming. This class involves creating and implementing networking protocols that help students delve deeper into the concepts introduced in CSCI 3761. The course requires hands-on sockets-based programming at the TCP and UDP level. The course explores and focuses on real-world networking problems. Restriction: Restricted to Computer Science Majors, Minors, and CSSC Certificate."
     },
 
@@ -195,6 +222,7 @@
         "course_name": "Web API",
         "credits": 3,
         "prereqs": ["CSCI2421"],
+        "offered": ["Fall", "Spring"],
         "course_description": "JavaScript Web technologies for front-end development and back-end development. Building a full end-to-end solution with a mobile or web front-end, Web API, and NoSQL database. Restriction: Restricted to Computer Science Majors and Minors."
     },
 
@@ -202,6 +230,7 @@
         "course_name": "Advanced Programming with Java and Python",
         "credits": 3,
         "prereqs": ["CSCI2421"],
+        "offered": ["Fall", "Spring"],
         "course_description": "This course introduces the fundamental concepts to develop programs and projects using modern software engineering techniques using two different programming languages (Java and Python). It will cover and apply pattern design approaches, reusable components driven by everyday needs within many software developments, the relationships between object-oriented programming concepts and software design concepts. It will dig deeper into techniques to program single-threaded applications as well as advanced techniques to construct concurrent and distributed applications. Restriction: Restricted to Computer Science Majors and Minors."
     },
 
@@ -209,6 +238,7 @@
         "course_name": "Network Structures",
         "credits": 3,
         "prereqs": ["MATH2411"],
+        "offered": ["Fall", "Spring"],
         "course_description": "This interdisciplinary course examines how the technological, social, and economic worlds are connected and how the study of networks sheds light on these connections. Topics include: how opinions spread through society; the robustness and fragility of financial networks; the technology and economics of Web information and on-line communities. Restriction: Restricted to Computer Science Majors and Minors."
     },
 
@@ -216,6 +246,7 @@
         "course_name": "Theoretical Foundations of Computer Science",
         "credits": 3,
         "prereqs": ["CSCI3412"],
+        "offered": ["Spring"],
         "course_description": "Introduces abstract models for computation, formal languages, and machines. Topics include: automata theory, formal languages, grammars, and Turing machines. Restricted to Computer Science Majors, Minors, Cybersecurity Majors, and CSSC Certificate."
     },
 
@@ -223,6 +254,7 @@
         "course_name": "Applied Number Theory",
         "credits": 3,
         "prereqs": ["MATH3000", "CSCI2511"],
+        "offered": ["Fall", "Spring"],
         "course_description": "Every year, Topics include divisibility, prime numbers, congruences, number theoretic functions, quadratic reciprocity, special diophantine equations, cryptography, computer security, and engineering applications. Cross-listed with CSCI 5110. Restriction: Restricted to Computer Science Majors and Minors."
     },
 
@@ -230,6 +262,7 @@
         "course_name": "Complexity and Problem Solving",
         "credits": 3,
         "prereqs": ["CSCI4034"],
+        "offered": ["Fall", "Spring"],
         "course_description": "Theoretical and practical aspects of solving complex problems, in particular, but not limited to, NP-complete and PSPACE-complete problems. Various heuristic and approximation algorithms, including greedy, ant, and Genetic Algorithms will be studied. This course is by the instructor's permission only. Restriction: Restricted to Computer Science Majors and Minors."
     },
 
@@ -237,6 +270,7 @@
         "course_name": "Computational Complexity and Problem Solving",
         "credits": 3,
         "prereqs": ["CSCI4034"],
+        "offered": ["Fall", "Spring"],
         "course_description": "Solid, in-depth theoretical foundation in computing, computational complexity, and algorithmics. Additional topics include various algorithms for both discrete and non-discrete problem domains. Models of Computation, Computational Complexity, Time Complexity Classes, Space Complexity Classes, The Theory of NP-completeness. Restriction: Restricted to Computer Science Majors and Minors."
     },
 
@@ -244,6 +278,7 @@
         "course_name": "Introduction to Artificial Intelligence",
         "credits": 3,
         "prereqs": ["CSCI3412"],
+        "offered": ["Fall", "Spring"],
         "course_description": "Topics include heuristic search, games playing algorithms, application of predicate calculus to AI, introduction to planning, application of formal grammars to AI. Restriction: Restricted to Computer Science Majors and Minors."
     },
 
@@ -251,6 +286,7 @@
         "course_name": "Simulation",
         "credits": 3,
         "prereqs": ["CSCI3412"],
+        "offered": ["Fall"],
         "course_description": "This class in simulation spans three different disciplines: Computer Science, Modeling and Simulation, and Analysis. These will have approximately equal weight with respect to this class, but with more breadth in the Modeling and Simulation and Analysis disciplines and more depth in the supporting Computer Science topics. Excursions are planned for agent-based simulations, knowledge-based simulations, and animation and visualization of simulation results. Cross-listed with CSCI 5203. Restriction: Restricted to Computer Science majors and minors."
     },
 
@@ -258,6 +294,7 @@
         "course_name": "Mobile Computing and Programming",
         "credits": 3,
         "prereqs": ["CSCI3453"],
+        "offered": ["Fall", "Spring"],
         "course_description": "This course contains two main simultaneous tracks, namely mobile computing and mobile programming. A series of lectures on various aspects of mobile computing provides an understanding of challenges and solutions in designing and implementing mobile systems. The main topics include mobile sensing, human mobility, and its technical implication. Restriction: Restricted to Computer Science Majors and Minors."
     },
 
@@ -265,6 +302,7 @@
         "course_name": "Social Networks & Informatics",
         "credits": 3,
         "prereqs": ["CSCI3412"],
+        "offered": ["Fall", "Spring"],
         "course_description": "The main topics covered by the course will include 1) social network data structures, 2) basic random graph models and graph algorithms; 3) recommendation systems and predictive models 4) query suggestion and content analysis 5) link analysis and community detection 6) the spread of information, disease, and influence on networks. This course builds a solid foundation in social informatics technology. Cross-listed with CSCI 5220. Restriction: Restricted to computer science majors and minors."
     },
 
@@ -272,6 +310,7 @@
         "course_name": "Embedded Systems Programming",
         "credits": 3,
         "prereqs": ["CSCI3453"],
+        "offered": ["Spring"],
         "course_description": "Embedded Systems Programming happens across a spectrum of Domains. Embedded Systems Programming in the Small is characterized by the creation of small applications in high volumes. Embedded Systems Programming in the Large is characterized by the creation of medium to large applications in one-off or low volumes using specialized Operating Systems such as Real-time Operating Systems. Students will use current languages and are expected to have a basic understanding of Operating Systems. Restriction: Restricted to Computer Science Majors and Minors."
     },
 
@@ -279,6 +318,7 @@
         "course_name": "Security & Cryptography",
         "credits": 3,
         "prereqs": ["CSCI3412"],
+        "offered": ["Fall", "Spring"],
         "course_description": "A broad overview of cryptography and its relation to computer security. Topics include basic standard cryptographic techniques, a history of codes and ciphers, RSA, DES, AES, Elliptic Curve Cryptography, ElGammal, and applications to current and future technologies. Cross-listed with CSCI 5407. Restriction: Restricted to Computer Science Majors, Minors, and CSSC Certificate."
     },
 
@@ -286,6 +326,7 @@
         "course_name": "Applied Graph Theory",
         "credits": 3,
         "prereqs": ["MATH3000", "CSCI2511"],
+        "offered": ["Fall", "Spring"],
         "course_description": "Introduces discrete structures applications of graph theory to computer science, engineering, and operations research. Topics include connectivity, coloring, trees, Euler and Hamiltonian paths and circuits. Matching and covering problems, shortest route and network flows. Restriction: Restricted to Computer Science Majors and Minors."
     },
 
@@ -293,6 +334,7 @@
         "course_name": "Computational Geometry",
         "credits": 3,
         "prereqs": ["CSCI3412"],
+        "offered": ["Fall", "Spring"],
         "course_description": "Many practical and aesthetic algorithmic problems have their roots in geometry. Applications abound in the areas of computer graphics, robotics, computer-aided design, and geographic information systems, for example. A selection of topics from convex hull, art gallery problems, ray tracing, point location, motion planning, segment intersection, Voronoi diagrams, visibility, and algorithmic folding will be covered. Cross-listed with CSCI 5411. Restriction: Restricted to Computer Science Majors and Minors."
     },
 
@@ -300,6 +342,7 @@
         "course_name": "Data Mining",
         "credits": 3,
         "prereqs": ["MATH3195", "CSCI3287", "CSCI3412"],
+        "offered": ["Fall", "Spring"],
         "course_description": "Introduces concepts, techniques, and methodologies to discover patterns in data. Topics include (but are not limited to) data preprocessing and cleansing, data warehousing, pattern mining, classification, prediction, cluster analysis, outlier detection, and online data analytics. Cross-listed with CSCI 5455. Restriction: Restricted to Computer Science Majors and Minors."
     },
 
@@ -307,6 +350,7 @@
         "course_name": "Java",
         "credits": 3,
         "prereqs": ["CSCI2421"],
+        "offered": ["Fall", "Spring"],
         "course_description": "Comprehensive course on Java programming. Coverage of programming language constructs of Java and the core libraries that come with Java: coverage of advanced topics, including technologies for building distributed applications, and interacting with a database. Restriction: Restricted to Computer Science Majors and Minors."
     },
 
@@ -314,6 +358,7 @@
         "course_name": "Parallel & Distributed Computing",
         "credits": 3,
         "prereqs": ["MATH3195", "CSCI3415", "CSCI3453"],
+        "offered": ["Fall"],
         "course_description": "Examines a range of topics involving parallel and distributed computing. Topics include language constructs for concurrency, work distribution, synchronization, and communication. Throughout, design of example scientific computing algorithms for parallel and distributed computation will be introduced. Restriction: Restricted to Computer Science Majors and Minors."
     },
 
@@ -321,6 +366,7 @@
         "course_name": "Compiler Design",
         "credits": 3,
         "prereqs": ["CSCI3412", "CSCI3415"],
+        "offered": ["Fall", "Spring"],
         "course_description": "Introduces the basic techniques used in translating programming languages: scanning, parsing, symbol table management, code generation, code optimization, and error recovery. Restriction: Restricted to Computer Science Majors and Minors."
     },
 
@@ -328,6 +374,7 @@
         "course_name": "Introduction to Computer Graphics",
         "credits": 3,
         "prereqs": ["CSCI3412", "MATH3191"],
+        "offered": ["Spring"],
         "course_description": "Introduces two and three dimensional computer graphics. Topics include scan conversion, geometric primitives, transformation, viewing, basic rendering, and illumination. Emphasis is on programming using 'C' and 'C++' Open GL. Cross-listed with CSCI 5565. Restriction: Restricted to Computer Science Majors and Minors."
     },
 
@@ -335,6 +382,7 @@
         "course_name": "Virtual and Augmented Reality",
         "credits": 3,
         "prereqs": ["CSCI3412"],
+        "offered": ["Fall", "Spring"],
         "course_description": "This course covers the fundamental concepts and technologies of virtual and augmented reality, and it introduces recent advances in the field. Topics include 3D user interaction, immersive environments, tele-presence, mobile AR, human perception, and VR/AR applications. Cross-listed with CSCI 5570. Restriction: Restricted to computer science majors and minors."
     },
 
@@ -342,6 +390,7 @@
         "course_name": "Data Science",
         "credits": 3,
         "prereqs": ["MATH3195", "CSCI3287", "CSCI3412"],
+        "offered": ["Fall", "Spring"],
         "course_description": "Introduces concepts and techniques that enable the data cycle from data extraction to knowledge discovery, including but not limited to data exploration, hypotheses testing, data organization, data featurization, supervised and unsupervised data modeling and learning, scaling-up analytics, and data visualization. Cross-listed with CSCI 5580. Restriction: Restricted to Computer Science Majors & Minors."
     },
 
@@ -349,6 +398,7 @@
         "course_name": "Computer Architecture",
         "credits": 3,
         "prereqs": ["CSCI2525"],
+        "offered": ["Spring"],
         "course_description": "Deals with how assembly language maps to hardware, and basic hardware techniques implemented in computers. Topics include logic design of arithmetic units, data control path processor logic, pipelining, memory systems, and input-output units. The emphasis is on logic structure rather than electronic circuitry. Students must know basic control logic design and be familiar with an assembly language before taking this course. Restriction: Restricted to Computer Science Majors and Minors, and Cybersecurity Majors."
     },
 
@@ -356,6 +406,7 @@
         "course_name": "Computational Motor Control",
         "credits": 3,
         "prereqs": ["CSCI3412"],
+        "offered": ["Fall", "Spring"],
         "course_description": "This course introduces techniques for the modeling, simulation and control of movement. These techniques come from computer graphics, robotics and machine learning. The topics that we will cover include robot modeling, trajectory optimization, feedback control, deep reinforcement learning, the neuroscience of movement, and neural network models of the brain. At the end of the course, students will learn how train control policies for virtual agents in computer animation or robotics applications. Restriction: Restricted to Computer Science Majors and Minors. Cross-listed with CSCI 5620."
     },
 
@@ -363,6 +414,7 @@
         "course_name": "Linguistic Geometry",
         "credits": 3,
         "prereqs": ["CSCI3412"],
+        "offered": ["Fall", "Spring"],
         "course_description": "Linguistic Geometry (LG) is a type of Game Theory in Artificial Intelligence, which permits to overcome combinatorial explosion and generate optimal strategies in real time. LG is currently changing the paradigm of military command and control in the USA and abroad. Restriction: Restricted to Computer Science Majors and Minors. Cross-listed with CSCI 5619."
     },
 
@@ -370,6 +422,7 @@
         "course_name": "Universal Compiler: Theory and Construction",
         "credits": 3,
         "prereqs": ["CSCI3453"],
+        "offered": ["Fall", "Spring"],
         "course_description": "Theoretical foundations and step-by-step hands-on experience in the development of a compiler, which can tune itself to a new programming language. This is a must-take course for future software developers as well as those interested in applications of the theory of Computer Science. Cross-listed with CSCI 5640. Restriction: Restricted to Computer Science Majors and Minors."
     },
 
@@ -377,6 +430,7 @@
         "course_name": "Numerical Analysis I",
         "credits": 3,
         "prereqs": ["MATH3191", "MATH3195"],
+        "offered": ["Fall", "Spring"],
         "course_description": "A first semester course in numerical methods and analysis fundamental to many algorithms encountered in scientific computing, data science, machine learning, and computational models in science and engineering. Rounding errors and numerical stability of algorithms; solution of linear and nonlinear equations; data modeling with interpolation and least-squares; and optimization methods. This course assumes that students have the equivalent of differential and integral calculus (e.g., MATH 2411), linear algebra (e.g., MATH 3191 or 3195), and computer programming (e.g., MATH 1376 or CSCI 1410). Term offered: fall, spring, summer."
     },
 
@@ -384,6 +438,7 @@
         "course_name": "Numerical Analysis II",
         "credits": 3,
         "prereqs": ["MATH2411", "MATH3191", "MATH3195", "CSCI1410"],
+        "offered": ["Fall"],
         "course_description": "A second semester course in numerical methods and analysis fundamental to many algorithms encountered in scientific computing, data science, machine learning, and computational models in science and engineering. Numerical differentiation and integration; random numbers and stochastic modeling; Fast Fourier Transform; data compression; eigenvalues and singular value decompositions with application to regression and dimension reduction. This course assumes that students have the equivalent of differential and integral calculus (e.g., MATH 2411), linear algebra (e.g., MATH 3191 or 3195), and computer programming (e.g., MATH 1376 or CS 1410). Term offered: fall."
     },
 
@@ -391,6 +446,7 @@
         "course_name": "Big Data Mining",
         "credits": 3,
         "prereqs": ["CSCI3287", "CSCI3412", "MATH3195"],
+        "offered": ["Fall"],
         "course_description": "Introduces techniques to discover patterns in Big Data. Selected topics: scalable high-dimensional data clustering, scalable dimensionality reduction, locality sensitive hashing, PageRank, scalable data stream filtering and querying, and scalable classification, in the context of different applications such as Social Network Analysis, Spam Detection, Association Rule Analysis, and Recommender Systems. Restriction: Restricted to students in a computer science major or minor. Cross-listed with CSCI 5702 and CSCI 7702."
     },
 
@@ -398,6 +454,7 @@
         "course_name": "Senior Design I",
         "credits": 3,
         "prereqs": ["CSCI3287", "CSCI3415", "CSCI3453", "CSCI3508"],
+        "offered": ["Fall"],
         "course_description": "This is an advanced practical course in which students design, implement, and document and test software systems for use in industry, non-profits, government and research institutions. The course offers practical experience by working closely with project sponsors. It also offers extensive experience in oral and written communication throughout the software life cycle. Restriction: Restricted to Computer Science Majors."
     },
 
@@ -405,6 +462,7 @@
         "course_name": "Senior Design II",
         "credits": 3,
         "prereqs": ["CSCI4738"],
+        "offered": ["Spring"],
         "course_description": "This course is a continuation of Senior Design I. Students must have taken Senior Design I in order to enroll for Senior Design II. In this course, the projects begun in Senior Design I are completed and presented. Restricted to undergraduate Computer Science Majors."
     },
 
@@ -412,6 +470,7 @@
         "course_name": "Principles of Cybersecurity",
         "credits": 3,
         "prereqs": ["CSCI3761"],
+        "offered": ["Fall", "Spring"],
         "course_description": "Focuses on the most common threats to cybersecurity as well as ways to prevent security breaches or information loss. Topics will include: understanding and thwarting hacker methods, authentication, cryptography, programming security, malware analysis, web, database and file server security, network and enterprise security methods. Restricted to Computer Science Majors, Minors and CSSC Certificate."
     },
 
@@ -419,6 +478,7 @@
         "course_name": "Cybersecurity Programming and Analysis",
         "credits": 3,
         "prereqs": ["CSCI3415"],
+        "offered": ["Fall", "Spring"],
         "course_description": "Focuses on cybersecurity related programming and analysis skills. Topics include: network and security application development, intrusion detection, automating security hardening. Students will design and develop security applications in multiple programming languages. Undergraduate algorithms and programming knowledge expected. Restricted to undergraduate Computer Science Majors and Minors."
     },
 
@@ -426,6 +486,7 @@
         "course_name": "Cyber and Infrastructure Defense",
         "credits": 3,
         "prereqs": ["CSCI3761"],
+        "offered": ["Fall", "Spring"],
         "course_description": "Presents analytical study of state-of-the-art attack and defense paradigms in cyber systems and infrastructures. Analysis will focus on: theoretical foundations of cybersecurity, practical development of novel technical defense techniques and analysis of alternatives. Knowledge of undergraduate-level networking. Cross-listed with CSCI 5743. Restriction: Restricted to Computer Science Majors, Minors and CSSC Certificate."
     },
 
@@ -433,6 +494,7 @@
         "course_name": "Introduction to Mobile Computing",
         "credits": 3,
         "prereqs": ["CSCI3453", "CSCI3761"],
+        "offered": ["Fall", "Spring"],
         "course_description": "Provides an in-depth understanding of the fundamentals in mobile computing and studies the existing and proposed solutions for ubiquitous computing. This course focuses on systems and networking issues involved with supporting mobility. Cross-listed with CSCI 5771. Restriction: Restricted to Computer Science Majors and Minors."
     },
 
@@ -440,6 +502,7 @@
         "course_name": "Mobile and IoT Security",
         "credits": 3,
         "prereqs": ["CSCI3453", "CSCI3761"],
+        "offered": ["Fall", "Spring"],
         "course_description": "This course concentrates on the computing of emerging mobile and IoT systems security in the Computer Science domain. The seminar will discuss recent research on computing for mobile user authentication, vulnerability risk detection of mobile/IoT systems, and software based defense mechanism. Cross-listed with CSCI 5772. Restriction: Restricted to undergraduate Computer Science Majors and Minors."
     },
 
@@ -447,6 +510,7 @@
         "course_name": "Introduction to Emerging System Security",
         "credits": 3,
         "prereqs": ["CSCI3453", "CSCI3761"],
+        "offered": ["Fall", "Spring"],
         "course_description": "This course concentrates on the security of the emerging system in the Computer Science domain. It focuses on radically novel systems, relatively fast-growing and potentially exerting a considerable impact on society, such as mobile systems, AI systems, and quantum systems. The security topics cover adversarial attacks, side/covert-channel attacks, covert-channel attacks, user authentication, biometrics, vulnerability risk detection, and defense countermeasure. Cross-listed with CSCI 5773. Restriction: Restricted to Computer Science Majors and Minors, and Cybersecurity Majors."
     },
 
@@ -454,6 +518,7 @@
         "course_name": "Bioinformatics",
         "credits": 3,
         "prereqs": ["CSCI1410", "CSCI1411", "MATH3195"],
+        "offered": ["Fall", "Spring"],
         "course_description": "Provides a broad exposure to the basic concepts and methodologies of bioinformatics and their application to analyzing genomic and proteomic data. Topics may include dynamic programming algorithms, graph theoretic techniques, hidden Markov models, phylogenetic trees, RNA/protein structure prediction and microarray analysis. Cross-listed with MATH 4788, PHYS 4788. Restriction: Restricted to Computer Science Majors and Minors."
     },
 
@@ -461,6 +526,7 @@
         "course_name": "Advanced Mobile and Ubiquitous Systems",
         "credits": 3,
         "prereqs": ["CSCI3453", "CSCI3761"],
+        "offered": ["Fall", "Spring"],
         "course_description": "This course covers various aspects of mobile and ubiquitous systems to provide an in-depth understanding of principles, state-of-the-art solutions and challenges in design and implementation of such systems. Restriction: Restricted to undergraduate Computer Science Majors and Minors."
     },
 
@@ -468,6 +534,7 @@
         "course_name": "User Experience Design",
         "credits": 3,
         "prereqs": ["CSCI2421"],
+        "offered": ["Fall", "Spring"],
         "course_description": "A how-to course for any technologist who has endured difficult interfaces and wants to design effective user interfaces that respect and advance the user experience. Course includes: Psychology, HCI personas, scenarios, prototyping, and evaluation for desktop and mobile applications. Restriction: Restricted to Computer Science Majors and Minors."
     },
 
@@ -475,6 +542,7 @@
         "course_name": "Computer Game Design and Programming",
         "credits": 3,
         "prereqs": ["CSCI3412"],
+        "offered": ["Fall", "Spring"],
         "course_description": "Computer Game Design and Programming introduces practical and example driven approaches to modern 3D game development. Topics include 3D modeling, character animation, UI design, scripting, texture mapping, and sound effect. Restriction: Restricted to Computer Science Majors and Minors."
     },
 
@@ -482,6 +550,7 @@
         "course_name": "Machine Learning",
         "credits": 3,
         "prereqs": ["MATH3195 or (MATH3191 and MATH3200)", "CSCI3412"],
+        "offered": ["Fall", "Spring"],
         "course_description": "Provides theoretical and computational foundations in machine learning to design and develop intelligent applications to perform object recognition, personalized recommendations, improve cybersecurity, fact-checking, forecasting and finding communities based on three classes of algorithms: supervised, unsupervised, semi-supervised and reinforcement learning. Restricted to Computer Science Majors and Minors."
     },
 
@@ -489,6 +558,7 @@
         "course_name": "Deep Learning",
         "credits": 3,
         "prereqs": ["MATH3195 or (MATH3191 and MATH3200)", "CSCI3412"],
+        "offered": ["Fall", "Spring"],
         "course_description": "Provides a foundation on deep learning; a sought-after skill in machine learning. Topics include neural network design & learning, restricted Boltzmann machine, convolution neural network, recurrent neural network, LSTMs, deep reinforcement learning, autoencoders, and evolving computation frameworks like TensorFlow, Keras. Restricted to Computer Science Majors and Minors."
     },
 
@@ -496,6 +566,7 @@
         "course_name": "Internship",
         "credits": 3,
         "prereqs": ["CSCI3415"],
+        "offered": ["Fall", "Spring"],
         "course_description": "Faculty or employer-supervised employment in industry. Enrollment is limited to students who fully completed a contract for cooperative education credit by the last day of the drop or add period. Restricted to Computer Science Majors and Minors. Repeatable."
     },
 
@@ -503,6 +574,7 @@
         "course_name": "Big Data Systems",
         "credits": 3,
         "prereqs": ["MATH3195", "CSCI3287", "CSCI3412"],
+        "offered": ["Fall", "Spring"],
         "course_description": "Presents a practical while in-depth review of the principles of a series of modern data processing systems (e.g., Hadoop, Spark, TensorFlow) designed to address the Big Data challenges. In combination, these systems enable the data to knowledge (Big) data lifecycle. Restricted to Computer Science Majors and Minors."
     }
         
