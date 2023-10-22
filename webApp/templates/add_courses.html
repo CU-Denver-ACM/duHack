@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Completed Courses</title>
+</head>
+
+<body>
+    <h1>Courses Taken</h1>
+    <form action="/" method="post">
+        <div id="section-container">
+            <div class="section">
+                <label for="items1">Choose a course:</label>
+                <select name="items1">
+                    {% for option in options %}
+                        <option value="{{ option }}">{{ option }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+        </div>
+        <br>
+        <button type="button" onclick="duplicateSection()">Add Course</button>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <script>
+        let sectionCounter = 1;
+
+        function duplicateSection() {
+            sectionCounter++;
+            let container = document.getElementById("section-container");
+            let newSection = document.createElement("div");
+            newSection.className = "section";
+            newSection.innerHTML = `
+                <label for="items${sectionCounter}">Choose an item:</label>
+                <select name="items${sectionCounter}">
+                    {% for option in options %}
+                        <option value="{{ option }}">{{ option }}</option>
+                    {% endfor %}
+                </select>
+            `;
+            container.appendChild(newSection);
+        }
+    </script>
+</body>
+</html>
