@@ -1,0 +1,91 @@
+{
+
+    "ENGL2156": {
+        "course_name": "Introduction to Creative Writing",
+        "credits": 3,
+        "prereqs": ["ENGL1020"],
+        "course_description": "Reading, discussing, writing short fiction and poetry in a workshop setting."
+    },
+
+    "FINE1000": {
+        "course_name": "Fostering Creativity",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "Through discussions, readings, writings and creative investigations, students will delve into theoretical and experiential approaches to creativity and consider how different kinds of creativity and passions can be identified, cultivated and leveraged in their current and future academic and professional lives."
+    },
+
+    "FINE1001": {
+        "course_name": "Introduction to Art",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "The course introduces visual analysis and critical examination of art from prehistory to modern times. Through reading, vocabulary development, group discussions, tests, and research projects, students will learn how to appreciate art and critically evaluate form, content, and context."
+    },
+
+    "FINE1004": {
+        "course_name": "Video Games, Story and Society",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "By investigating various methods and theories, this course will examine how stories are crafted to fit the interactive aspects of video games, their resemblance and dependence on traditional stories, and how unorthodox plots, characters, and impact gameplay."
+    },
+
+    "FINE1450": {
+        "course_name": "Visual Culture: Ways of Seeing",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "A core course for majors and non-majors Visual Culture: Ways of Seeing explores how the meaning of imagery is encoded in cultural settings and transforms globally through changing technology and is integrated into daily life."
+    },
+
+    "FITV1001": {
+        "course_name": "Fundamentals of Film and Television",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "Provides fundamentals in academic theories surrounding visual culture. Topics include representation, spectatorship, mass media and popular culture, new media, and scientific images. Student participation is through discussion, creative projects, reading, and written response."
+    },
+
+    "FITV1005": {
+        "course_name": "Introduction to Theatre & Arts in the Community",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "Discussion, workshops, and lectures designed to discover, analyze, and evaluate all aspects of the theatre experience: writing, acting, directing, staging, history, theory and its relationship to film & video. Attending plays and field trips to several Denver-area theaters, and demonstrations."
+    },
+
+    "FITV1115": {
+        "course_name": "Horror in Western Culture and Cinema",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "This course is designed to analyze the history, practice and production of the horror film. By examining the horror genre students analyze how cinema is both a reflection of the time it was produced as well as it impacts on art and society."
+    },
+
+    "LDAR1015": {
+        "course_name": "Engaging Landscapes for Wicked Change",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "This course will offer students the tools and perspectives to understand how landscapes impact them and others, analyze and describe the forces that inform landscape form, and propose changes to landscapes that will address the wicked problems of our time."
+    },
+
+    "PMUS1001": {
+        "course_name": "Music Appreciation",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "Explores the style of music in the major compositional periods, including contemporary pop styles. This course will not satisfy any degree requirements for music majors. For non-music majors who want to learn how to listen to music with greater understanding and pleasure."
+    },
+
+    "PMUS1011": {
+        "course_name": "World Pop",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "Explores popular music from around the world with an emphasis on the latest trends. This is for non-music majors who want to learn about other cultures and learn how to listen to all music with greater understanding."
+    }
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+}

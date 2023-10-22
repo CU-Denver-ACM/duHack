@@ -1,0 +1,23 @@
+{
+    
+    "CSCI-Core": ["CSCI1200, CSCI1410", "CSCI1411", "CSCI2312", "CSCI2421", "CSCI2511", "CSCI3287", "CSCI3412", "CSCI3508", "CSCI4034", "CSCI1510", "CSCI2525", "CSCI3415", "CSCI3453", "CSCI3761", "CSCI4551", "CSCI4591", "CSCI4738", "CSCI4739"],
+    "MATH-Core": ["MATH1401", "MATH2411", "MATH3195"],
+    "CSCI-Data-Science-Breadth": ["CSCI4455", "CSCI4580", "CSCI4930", "CSCI4931"],
+    "CSCI-Scientific-Computing-Breadth": ["CSCI3560", "CSCI4560", "CSCI4110"],
+    "CSCI-Secure-Computing-Breadth": ["CSCI4741", "CSCI4742", "CSCI4743"],
+    "CSCI-System-Software-Breadth": ["CSCI3511", "CSCI4287", "CSCI4565"],
+    "CSCI-Technical-Electives-Credits": 12,
+    "English-Core": ["ENGL1020", "ENGL2030"],
+    "Science-Credits": 10,
+    "Arts-Credits": 3,
+    "Humanities-Credits": 3,
+    "Behavioral-Sciences-Credits": 3,
+    "Social-Sciences-Credits": 3,
+    "Internaional-Perspectives-Credits": 3,
+    "Cultural-Diversity-Credits": 3
+
+
+    
+
+
+}

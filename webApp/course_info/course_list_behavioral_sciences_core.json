@@ -1,0 +1,83 @@
+{
+
+    "ANTH1302": {
+        "course_name": "Introduction to Archaeology",
+        "credits": 4,
+        "prereqs": [],
+        "course_description": "Introduces the study of past cultures and their environments. Emphasis is on the scientific method, aspects of research design and analytical techniques used by archaeologists to determine chronology, taphonomy, source production areas, exchange networks, and human-environment interactions. Three hours of lecture and a two-hour lab each week."
+    },
+
+    "ANTH2102": {
+        "course_name": "Culture and the Human Experience",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "An application of the concept of culture to several aspects of the human experience, including gender relations, emotion and personality, cognition, language, health and healing, and economic behavior. In exploring these dimensions of the human experience, the course focuses on selected cultures from each of the world's major geographic areas."
+    },
+
+    "COMM1011": {
+        "course_name": "Communication and Communities",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "All day, every day, we communicate with others. This survey class teaches students the fundamental roles communication plays in our everyday lives, workplaces, communities, and interpersonal relationships. The course foregrounds the ways different communities practice different methods of communication."
+    },
+
+    "COMM1021": {
+        "course_name": "Introduction to Media Studies",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "We live in a media-saturated world: radio, TV, film, music, social media, smartphones, and more. This class explores how media shape our everyday lives and how recent trends and shifts in media technologies are presenting opportunities for and challenges to democratic processes."
+    },
+
+    "HDFR2080": {
+        "course_name": "Sex, Human Development and Family Systems",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "Students will become familiar with human sexuality across the life span through behavioral science and ecological perspectives. Different aspects of sexuality including behavioral, biological, developmental and cultural will be examined Implications for working with individuals, families, and couples through a behavioral science context will be explored."
+    },
+
+    "HDFR2083": {
+        "course_name": "Family and Personal Finance",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "Students will become familiar with family and personal finances across the life span through the use of behavioral science and ecological perspectives. Different determinants of financial education including behavioral, developmental, and cultural will be examined within familial and individual contexts."
+    },
+
+    "LING2000": {
+        "course_name": "Foundations of Linguistics",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "Provides students with the foundations of the scientific study of language. Examines core areas within theoretical linguistics, sociolinguistics, historical linguistics, language acquisition, and writing systems, using a variety of languages."
+    },
+
+    "PSYC1000": {
+        "course_name": "Introduction to Psychology I",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "Introduces the scientific study of behavior, including an overview of the biological basis of behavior, sensation or perception, states of consciousness, learning and memory, thinking and language, intelligence, motivation and emotion."
+    },
+
+    "PSYC1005": {
+        "course_name": "Introduction to Psychology II",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "Introduces the scientific study of behavior, including an overview of the history of psychology, development, personality, psychological disorders, therapy, health psychology and social behavior."
+    },
+
+    "SPSY2200": {
+        "course_name": "Child and Adolescent Mental Health in Schools and Communities",
+        "credits": 3,
+        "prereqs": [],
+        "course_description": "Introduces students to child and adolescent mental health and treatment, with a focus on trends in children’s mental health, evidence-based treatments for childhood mental health challenges, and child mental health careers. Course includes an emphasis on school-based mental health practices."
+    }
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+}
