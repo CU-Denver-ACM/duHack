@@ -1,5 +1,5 @@
 class Course:
-    def __init__(self, name, course_id, prereqs=None, category=None):
+    def __init__(self, name, course_id, description, offered, prereqs=None, credits=None):
         """
         Initializes a Course object.
 
@@ -10,11 +10,13 @@ class Course:
         """
         self.name = name
         self.course_id = course_id
+        self.description = description
         self.prereqs = prereqs if prereqs is not None else []
-        self.category = category
+        self.credits = credits
+        self.offered = offered
 
     def __str__(self):
-        return f"Course(name={self.name}, course_id={self.course_id}, prereqs=[{', '.join([course.name for course in self.prereqs])}], category={self.category})"
+        return f"Course(name={self.name}, course_id={self.course_id}, prereqs=[{', '.join([course for course in self.prereqs])}], credits={self.credits})"
 
     def add_prerequisite(self, course):
         """
@@ -25,9 +27,13 @@ class Course:
         if course not in self.prereqs:
             self.prereqs.append(course)
 
-# Example usage
-math101 = Course(name="Math 101", course_id="MTH101", category="core")
-comp101 = Course(name="Computer Science 101", course_id="CSC101", category="core")
-comp201 = Course(name="Computer Science 201", course_id="CSC201", prereqs=[math101, comp101], category="core")
+    def get_offered(self):
+        """Get offered terms"""
+        return self.offered
 
-print(comp201)
+# Example usage
+# math101 = Course(name="Math 101", course_id="MTH101", category="core")
+# comp101 = Course(name="Computer Science 101", course_id="CSC101", category="core")
+# comp201 = Course(name="Computer Science 201", course_id="CSC201", prereqs=[math101, comp101], category="core")
+
+# print(comp201)
