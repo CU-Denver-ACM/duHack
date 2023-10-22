@@ -1,5 +1,5 @@
 {
-    
+
     "CSCI1200": {
         "course_name": "Fundamentals of Engineering Design Innovation",
         "credits": 3,
@@ -578,6 +578,5 @@
         "course_description": "Presents a practical while in-depth review of the principles of a series of modern data processing systems (e.g., Hadoop, Spark, TensorFlow) designed to address the Big Data challenges. In combination, these systems enable the data to knowledge (Big) data lifecycle. Restricted to Computer Science Majors and Minors."
     }
         
-      
 }
   
