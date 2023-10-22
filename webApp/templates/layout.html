@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Header content goes here -->
 <head>
     <meta charset="UTF-8">
     <title>MSU-DU Hackathon - Optimized Schedule Builder</title>
@@ -20,13 +21,27 @@
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="/">Home</a>
                 </li>
+                {% if 'username' in session %}
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/logout">Logout</a>
+                </li>
+                {% else %}
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/login">Login</a>
+                </li>
+                {% endif %}
+
+                <!-- Put additional nav bar links here. Use the format used above -->
             </ul>
         </div>
     </div>
 </nav>
 
+<!-- Per Page content goes here -->
 {% block content %}{% endblock %}
 
+
+<!-- Footer content goes here -->
 <br>
 <div class="container-fluid bg-light mt-5 py-3" style="border-top: 2px solid #7EA0E9;">
     <div class="row justify-content-center">

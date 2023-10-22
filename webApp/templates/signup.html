@@ -7,14 +7,22 @@
             <div class="card">
                 <div class="card-body">
                     <h2 class="card-title text-center">Sign Up</h2>
-                    <form action="/signup" method="post">
+                    <form action="/signup" method="post" id="signupForm">
                         <div class="mb-3">
-                            <label for="first-name" class="form-label">First Name:</label>
-                            <input type="text" class="form-control" id="first-name" name="first-name" required>
+                            <label for="name" class="form-label">Name:</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
                         </div>
                         <div class="mb-3">
-                            <label for="last-name" class="form-label">Last Name:</label>
-                            <input type="text" class="form-control" id="last-name" name="last-name" required>
+                            <label for="id" class="form-label">ID</label>
+                            <input type="text" class="form-control" id="id" name="id" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="major" class="form-label">Major</label>
+                            <input type="text" class="form-control" id="major" name="major" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="minor" class="form-label">Minor</label>
+                            <input type="text" class="form-control" id="minor" name="minor" required>
                         </div>
                         <div class="mb-3">
                             <label for="email" class="form-label">Email (as username):</label>
@@ -33,6 +41,30 @@
         </div>
     </div>
 </div>
+
+<script>
+    document.getElementById('signupForm').addEventListener('submit', function(event) {
+        event.preventDefault();  // Prevent the default form submission
+
+        let formData = new FormData(this);
+        let jsonObject = {};
+
+        for (const [key, value] of formData.entries()) {
+            jsonObject[key] = value;
+        }
+
+        fetch('/signup', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(jsonObject)
+        })
+            .then(response => response.json())
+            .then(data => console.log(data))
+            .catch(error => console.error('Error:', error));
+    });
+</script>
 
 
 {% endblock %}

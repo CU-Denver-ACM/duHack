@@ -1,29 +1,39 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Add Completed Courses</title>
-</head>
+{% extends 'layout.html' %}
 
-<body>
-    <h1>Courses Taken</h1>
-    <form action="/" method="post">
-        <div id="section-container">
-            <div class="section">
-                <label for="items1">Choose a course:</label>
-                <select name="items1">
-                    {% for option in options %}
-                        <option value="{{ option }}">{{ option }}</option>
-                    {% endfor %}
-                </select>
+{% block content %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title text-center">Add Completed Courses</h1>
+                    <h2 class="card-subtitle mb-4 text-center">Courses Taken</h2>
+                    <form action="/" method="post">
+                        <div id="section-container">
+                            <div class="mb-3 section">
+                                <label for="items1" class="form-label">Choose a course:</label>
+                                <select name="items1" class="form-select">
+                                    {% for option in options %}
+                                    <option value="{{ option }}">{{ option }}</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                        </div>
+                        <div class="d-grid gap-2 mb-3">
+                            <button type="button" class="btn btn-secondary" onclick="duplicateSection()">Add Course</button>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <input type="submit" value="Submit" class="btn btn-primary">
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
-        <br>
-        <button type="button" onclick="duplicateSection()">Add Course</button>
-        <br>
-        <input type="submit" value="Submit">
-    </form>
+    </div>
+</div>
 
-    <script>
+
+<script>
         let sectionCounter = 1;
 
         function duplicateSection() {
@@ -32,15 +42,17 @@
             let newSection = document.createElement("div");
             newSection.className = "section";
             newSection.innerHTML = `
-                <label for="items${sectionCounter}">Choose an item:</label>
-                <select name="items${sectionCounter}">
-                    {% for option in options %}
-                        <option value="{{ option }}">{{ option }}</option>
-                    {% endfor %}
-                </select>
+<div class="mb-3">
+    <label for="items${sectionCounter}" class="form-label">Choose a Course:</label>
+    <select name="items${sectionCounter}" class="form-select">
+        {% for option in options %}
+            <option value="{{ option }}">{{ option }}</option>
+        {% endfor %}
+    </select>
+</div>
+
             `;
             container.appendChild(newSection);
         }
     </script>
-</body>
-</html>
+{% endblock %}

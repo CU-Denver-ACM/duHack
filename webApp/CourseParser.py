@@ -5,7 +5,7 @@ def parse_csci_courselist():
     """
     Parse the csci courselist json and return a list of math course objects
     """
-    with open("course_info/course_list_CSCI.json") as csci_course_file:
+    with open("webApp/course_info/course_list_CSCI.json") as csci_course_file:
         csci_data = json.load(csci_course_file)
     csci_data_keys = csci_data.keys()
  
@@ -22,7 +22,7 @@ def parse_math_courselist():
     """
     Parse the math courselist json and return a list of math course objects
     """
-    with open("course_info/course_list_MATH.json") as math_course_file:
+    with open("webApp/course_info/course_list_MATH.json") as math_course_file:
         math_data = json.load(math_course_file)
     math_data_keys = math_data.keys()
  
@@ -38,7 +38,7 @@ def parse_engl_courselist():
     """
     Parse the math courselist json and return a list of math course objects
     """
-    with open("course_info/course_list_ENGL.json") as engl_course_file:
+    with open("webApp/course_info/course_list_ENGL.json") as engl_course_file:
         engl_data = json.load(engl_course_file)
     engl_data_keys = engl_data.keys()
  

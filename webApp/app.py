@@ -1,7 +1,14 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, session, url_for, redirect
 import CourseParser
+from Student import Student
 
 app = Flask(__name__)
+
+listOfStudents = [
+    Student("Kyle Ren", 1234, "BS", "Math", "kyler", "helloworld"),
+    Student("Jim Broman", 5467, "BA", "Math", "liftingLyfe", "gainzzzzz"),
+    Student("Adrien Agreste", 7865, "BS", "marketing", "agreste1", "cataclysm")
+]
 
 @app.route("/")
 def home():
@@ -33,11 +40,26 @@ def login():
     username = data.get('username')
     password = data.get('password')
 
+    is_found = False
     # Placeholder authentication logic
-    if username == "test" and password == "password":
-        return jsonify({"message": "Login successful!"}), 200
+    for student in listOfStudents:
+        if student.get_username() == username and student.get_password() == password:
+            is_found = True
+            break
+
+    if is_found:
+        session['username'] = username
+        return render_template("add_courses.html")
+
     else:
-        return jsonify({"message": "Invalid credentials."}), 401
+        return render_template("login.html")
+
+
+@app.route('/logout')
+def logout():
+    session.pop('username', None)
+    return render_template("home.html")
+
 
 @app.route("/signup", methods=['GET'])
 def get_signup():
@@ -48,10 +70,14 @@ def signup():
     data = request.get_json()
     username = data.get('username')
     password = data.get('password')
+    name = data.get('name')
+    sid = data.get('id')
+    major = data.get('major')
+    minor = data.get('minor')
 
-    # Placeholder signup logic
-    # You would typically store the user data in a database
-    return jsonify({"message": "Signup successful!"}), 200
+    # typically store the user data in a database
+    listOfStudents.append(Student(name, sid, major, minor, username, password))
+    return render_template("login.html")
 
 @app.route("/get-schedule", methods=['GET'])
 def get_schedule():
@@ -64,15 +90,6 @@ def get_schedule():
     }
     return jsonify(schedule)
 
-@app.route("/enter-schedule", methods=['POST'])
-def enter_schedule():
-    data = request.get_json()
-
-    # Placeholder logic to enter the user's schedule
-    # Typically, you'd store this in a database under the user's ID
-    schedule = data.get('schedule')
-
-    return jsonify({"message": "Schedule entered successfully!"}), 200
 
 if __name__ == "__main__":
     app.run(debug=True)

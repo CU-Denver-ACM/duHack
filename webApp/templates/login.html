@@ -7,7 +7,7 @@
             <div class="card">
                 <div class="card-body">
                     <h2 class="card-title text-center">Login</h2>
-                    <form action="/login" method="post">
+                    <form action="/login" method="POST" id="loginForm">
                         <div class="mb-3">
                             <label for="username" class="form-label">Username:</label>
                             <input type="text" class="form-control" id="username" name="username" required>
@@ -25,6 +25,30 @@
         </div>
     </div>
 </div>
+
+<script>
+    document.getElementById('loginForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        let formData = new FormData(this);
+        let jsonObject = {};
+
+        for (const [key, value] of formData.entries()) {
+            jsonObject[key] = value;
+        }
+
+        fetch('/login', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(jsonObject)
+        })
+            .then(response => response.json())
+            .then(data => console.log(data))
+            .catch(error => console.error('Error:', error));
+    });
+</script>
 
 
 {% endblock %}
