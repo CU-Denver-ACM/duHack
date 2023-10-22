@@ -30,6 +30,7 @@ class Course:
     def get_offered(self):
         """Get offered terms"""
         return self.offered
+    
 
 # Example usage
 # math101 = Course(name="Math 101", course_id="MTH101", category="core")
