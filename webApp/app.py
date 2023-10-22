@@ -1,10 +1,14 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 
 app = Flask(__name__)
 
 @app.route("/")
-def hello_world():
-    return "<p>Hello there<p>"
+def home():
+    return render_template("home.html")
+
+@app.route("/login", methods=['GET'])
+def get_login():
+    return render_template("login.html")
 
 @app.route("/login", methods=['POST'])
 def login():
@@ -18,6 +22,10 @@ def login():
         return jsonify({"message": "Login successful!"}), 200
     else:
         return jsonify({"message": "Invalid credentials."}), 401
+
+@app.route("/signup", methods=['GET'])
+def get_signup():
+    return render_template("signup.html")
 
 @app.route("/signup", methods=['POST'])
 def signup():
