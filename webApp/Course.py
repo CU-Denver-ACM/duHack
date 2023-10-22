@@ -16,7 +16,7 @@ class Course:
         self.offered = offered
 
     def __str__(self):
-        return f"Course(name={self.name}, course_id={self.course_id}, prereqs=[{', '.join([course for course in self.prereqs])}], credits={self.credits})"
+        return f"{self.course_id}: {self.name}"
 
     def add_prerequisite(self, course):
         """
@@ -30,6 +30,7 @@ class Course:
     def get_offered(self):
         """Get offered terms"""
         return self.offered
+    
 
 # Example usage
 # math101 = Course(name="Math 101", course_id="MTH101", category="core")

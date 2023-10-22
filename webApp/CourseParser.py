@@ -49,4 +49,15 @@ def parse_engl_courselist():
     
     return engl_course_list
 
+def combined():
+    """
+    return list of all courses
+    """
+    
+    all_courses= parse_engl_courselist()
+    all_courses.extend(parse_math_courselist())
+    all_courses.extend(parse_csci_courselist())
+    
+    return all_courses
+
 
