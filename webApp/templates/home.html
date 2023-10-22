@@ -1,12 +1,13 @@
 {% extends 'layout.html' %}
 
 {% block content %}
-    <div class="main-container">
-        <h1>Welcome to SmartPlan</h1>
-        <div class="button-container mt-4">
-            <a href="/login" class="btn btn-primary mr-2">Login</a>
-            <a href="/signup" class="btn btn-secondary">Sign Up</a>
-        </div>
+<div class="main-container text-center" style="background-color: #f4f4f9; padding: 50px 0; border-radius: 15px; box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);">
+    <h1 style="font-weight: bold; color: #333; margin-bottom: 40px;">Welcome to SmartPlan</h1>
+    <div class="button-container mt-4">
+        <a href="/login" class="btn btn-primary mr-2" style="font-size: 18px; padding: 12px 25px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">Login</a>
+        <a href="/signup" class="btn btn-secondary" style="font-size: 18px; padding: 12px 25px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">Sign Up</a>
     </div>
+</div>
+
 
 {% endblock %}

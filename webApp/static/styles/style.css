@@ -1,0 +1,17 @@
+.btn-primary {
+    background-color: #CFB87C;
+    border-color: #CFB87C;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #bda16f;  /* Slightly darker shade for hover, focus, and active states */
+    border-color: #bda16f;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(207, 184, 124, 0.5); /* A light box-shadow with the color #CFB87C */
+}

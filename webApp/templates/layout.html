@@ -2,18 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Du Hackathon - Optimized Schedule Builder</title>
+    <title>MSU-DU Hackathon - Optimized Schedule Builder</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="{{ url_for('static', filename='styles/style.css') }}" rel="stylesheet">
 
 </head>
 <body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/">MSU-DU Hackathon</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/">Home</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
 {% block content %}{% endblock %}
 
 <br>
-<table style="width: 100%;border-spacing: 0; padding: 0;vertical-align: top; border-top:1px solid #7EA0E9;">
-<tr >
-<td style="width:80%; text-align: center">
-    <a> CU Denver - ACM.</a></td>
-</tr></table>
+<div class="container-fluid bg-light mt-5 py-3" style="border-top: 2px solid #7EA0E9;">
+    <div class="row justify-content-center">
+        <div class="col-10 text-center">
+            <a class="text-dark text-decoration-none">CU Denver - ACM</a>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-QrsIw61mR7TiSgBFGR42vGJuVN1/kMkv22hDIsYD1OYpZVQGg7y/CBcKRIeS/JR" crossorigin="anonymous"></script>
 </body>
 </html>
