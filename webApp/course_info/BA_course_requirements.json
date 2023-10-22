@@ -1,0 +1,18 @@
+{
+    
+    "CSCI-Core": ["CSCI1410", "CSCI1411", "CSCI2312", "CSCI2421", "CSCI2511", "CSCI3287", "CSCI3412", "CSCI3508"],
+    "MATH-Core": ["MATH1401"],
+    "MATH-Elective-Credits": 3,
+    "CSCI-Technical-Electives-Credits": 21,
+    "English-Core": ["ENGL1020", "ENGL2030"],
+    "Free-Elective-Credits": 38,
+    "Science-Credits": 8,
+    "Arts-Credits": 3,
+    "Humanities-Credits": 3,
+    "Behavioral-Sciences-Credits": 3,
+    "Social-Sciences-Credits": 3,
+    "Internaional-Perspectives-Credits": 3,
+    "Cultural-Diversity-Credits": 3
+
+
+}
